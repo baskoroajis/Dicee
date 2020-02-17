@@ -18,7 +18,7 @@ struct ContentView: View {
             Image("background")
                 .resizable()
                 .edgesIgnoringSafeArea(.all)
-           
+            
             VStack{
                 Image("diceeLogo")
                     .aspectRatio(1,contentMode: .fit)
@@ -38,10 +38,10 @@ struct ContentView: View {
                         .fontWeight(.heavy)
                         .padding(.horizontal)
                 }
-                    .background(Color.red)
-                    
+                .background(Color.red)
+                
             }
-          
+            
         }
     }
 }
